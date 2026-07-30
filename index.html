@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DF Gomitas - Login Administrativo</title>
+    <style>
+        body { 
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; 
+            background-color: #f4f4f9; 
+            display: flex; 
+            justify-content: center; 
+            align-items: center; 
+            height: 100vh; 
+            margin: 0; 
+        }
+        .login-box { 
+            background: white; 
+            padding: 30px; 
+            border-radius: 10px; 
+            box-shadow: 0 4px 8px rgba(0,0,0,0.1); 
+            width: 100%; 
+            max-width: 400px; 
+            text-align: center; 
+        }
+        h2 { color: #333; margin-bottom: 5px; }
+        h4 { color: #666; margin-top: 0; margin-bottom: 20px; }
+        input { 
+            width: 90%; 
+            padding: 10px; 
+            margin: 10px 0; 
+            border: 1px solid #ccc; 
+            border-radius: 5px; 
+        }
+        button { 
+            width: 95%; 
+            padding: 10px; 
+            background-color: #ff6b6b; 
+            color: white; 
+            border: none; 
+            border-radius: 5px; 
+            cursor: pointer; 
+            font-size: 16px; 
+            font-weight: bold; 
+        }
+        button:hover { background-color: #ff4c4c; }
+    </style>
+</head>
+<body>
+    <div class="login-box">
+        <h2>Acceso Administrativo</h2>
+        <h4>Portal DF Gomitas</h4>
+        <form>
+            <input type="text" placeholder="Usuario" required>
+            <input type="password" placeholder="Contraseña" required>
+            <button type="submit">Ingresar al Sistema</button>
+        </form>
+    </div>
+</body>
+</html>
